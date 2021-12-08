@@ -19,7 +19,7 @@
     } 
     else {
         echo "Anda gagal login. Silahkan ";?>
-        <a href="loginForm.html">Login kembali</a>
+        <a href="index.html">Login kembali</a>
         <?php
         echo mysqli_error($connect);
     }
